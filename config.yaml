@@ -1,0 +1,12 @@
+server:
+  http:
+    host:    "localhost:8080"
+  grpc:
+    host:    "localhost:5566"
+
+database:
+  type: "mongo"
+  uri: "mongodb://localhost:27017"
+  name: "tasks"
+  collection: "todo-list"
+
